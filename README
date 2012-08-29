@@ -1,4 +1,6 @@
 Sample Rhino Objective-J project
 
 To run
+`sh run.sh`
+-- or --
 `./objj main.j`
