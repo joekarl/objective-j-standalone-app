@@ -104,7 +104,7 @@
 
     delete global.print;
     var print = function (string) {
-        Packages.java.lang.System.out.println(String(string));
+        Packages.java.lang.System.out.print(String(string));
     };
 
     var narwhal = importScript(prefix + "/narwhal.js");
